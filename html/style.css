@@ -1,0 +1,27 @@
+.container {
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.container>:first-child{
+  border: 1px solid black;
+  width: 5px;
+}
+
+.container>:nth-child(2){
+  border: 1px solid red;
+  width: 20px;
+}
+.container>:nth-child(3){
+  border: 1px solid red;
+  width: 50px;
+}
+
+.container>:last-child{
+  background-color: yellow;
+  border: 1px solid green;
+  width: 100px;
+} 
